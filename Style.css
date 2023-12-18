@@ -1,0 +1,438 @@
+@font-face {
+	font-family: 'dunkin';
+    src: url('a_black_lives/aBlackLives.ttf');
+   
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+Html{
+    font-family: dunkin;
+    background-color:  #FAF5FF;
+}
+
+.Space{
+    opacity: 0.3;
+    background-color: #BD7585;
+    border: solid #97495A;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+
+}
+.Profil{
+    margin: 25px;
+    display: flex;
+    column-gap: 75px;
+}
+
+
+.profilP {
+    aspect-ratio: 4/2;
+    object-fit: contain;
+
+}
+
+.BTS_SIO {
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    grid-template-columns: 5;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #586F7C;
+
+}
+
+.débouché{
+    font-size: small;
+    
+}
+
+ul, li.débouché{
+    font-size: small;
+    text-align: left;
+    list-style-type: none;
+    padding-left: 90px;
+
+}
+
+
+
+.Quick-link{
+    display: grid;
+    grid-template-columns: 7 1fr;
+    grid-template-rows: 3 1fr;
+    margin: 25px
+    
+}
+    .TSynthese{
+        grid-column-start:  2  ;
+        grid-column-end:  5  ;
+        grid-row: 1 ;
+        background-color: #DAD1E2;
+        margin: 20px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+
+    }
+    .CV{
+        grid-column-start:  1  ;
+        grid-column-end:  3  ;
+        grid-row: 2 ;
+        background-color: #DAD1E2;
+        margin: 20px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+
+    }
+
+    .Linkedin{
+      
+        grid-column-start:  2  ;
+        grid-column-end:  5  ;
+        grid-row: 3 ;
+        background-color: #DAD1E2;
+        margin: 20px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+
+
+    }
+    .GL{
+        grid-column-start:  4  ;
+        grid-column-end:  6  ;
+        grid-row: 2 ;
+        background-color: #DAD1E2;
+        margin: 20px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+
+.Terminal{
+    background-color: #1E152A;
+    margin: 25px;
+    width: 100vh;
+    padding: 20px;
+    grid-column-start:1 ;
+
+}
+image{
+    grid-column-start: 2;
+
+}
+
+
+.white {  
+    color:#d9d7d9; 
+  }
+
+.competence{
+    display: grid;
+    grid-template-columns: 3 1fr;
+    
+}
+    .Technical_Skills {
+        border-radius: 10px;
+        text-align: center;
+        grid-column: 1 ;
+        background-color: #586F7C;
+        margin-left: 100px;
+        border: solid #3B4B54;
+        
+    }
+    .vl {
+        border-left: 4px solid #1E152A;
+        grid-column: 2 ;
+        justify-self: center;
+    }
+    .Soft_Skills{
+
+        border-radius: 10px;
+        grid-column: 3;
+        text-align: center;
+        background-color: #586F7C;
+        margin-right: 100px;
+        border: solid #3B4B54;
+        vertical-align: middle;
+
+    }
+
+
+    
+.info_rapide{
+        display: grid;
+        grid-template-columns: 3 1fr;
+        grid-template-rows: 2 1fr;
+        margin: 50px;
+    }
+
+.inf1{
+    border-radius: 10px;
+    text-align: center;
+    background-color: #586F7C;
+    margin-right: 100px;
+    border: solid #3B4B54;
+    grid-column: 1;
+    grid-row: 1; 
+    }
+
+.inf2{
+    border-radius: 10px;
+    text-align: center;
+    background-color: #586F7C;
+    margin-right: 100px;
+    border: solid #3B4B54;
+    grid-column: 2;
+    grid-row: 1; 
+    }
+
+.inf3{
+    border-radius: 10px;
+    text-align: center;
+    background-color: #586F7C;
+    margin-right: 100px;
+    border: solid #3B4B54;
+    grid-column: 3;
+    grid-row: 1;   
+    }
+.Experience{
+    display: grid;
+    grid-template-columns: 3 1fr;
+    grid-template-rows:  1fr;
+    margin : 10px;
+    margin: 25px
+}  
+.bibli{
+    border-radius: 10px;
+    background-color: #586F7C;
+    margin-right: 100px;
+    border: solid #3B4B54;
+    grid-column-start:  1;
+    grid-row:  1;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.bibli img {
+    width:400px;
+    height:197px;
+    margin: 15px;
+    border-radius: 10px;
+    }
+
+
+.infranow{
+    border-radius: 10px;
+    text-align: end;
+    background-color: #586F7C;
+    margin-right: 100px;
+    border: solid #3B4B54;
+    grid-column-end:  3;
+    grid-row:  2;
+    text-align: center;
+
+
+}
+
+.infranow img {
+    width:476.25px;
+    height:201.75px;
+    border-radius: 10px;
+    margin: 15px;
+
+    }
+
+.VP{
+    border-radius: 10px;
+    background-color: #586F7C;
+    margin-right: 100px;
+    border: solid #3B4B54;
+    grid-column-start:  1;
+    grid-row:  3;
+    padding: 15px;
+    text-align: center;
+
+}
+.VP img {
+    margin: 15px;
+    width:497px;
+    height:280px;
+    border-radius: 10px;
+    }
+.M2L{
+        border-radius: 10px;
+        background-color: #586F7C;
+        margin-right: 100px;
+        border: solid #3B4B54;
+        grid-column-end:  3;
+        grid-row:  4;
+        padding: 15px;
+        text-align: center;
+    
+    }
+
+
+.zoom {
+    height:400px;
+    margin:auto;
+    }
+    .zoom p {
+    text-align:center;
+    }
+    .zoom img {
+    width:300px;
+    height:225px;
+    }
+    .zoom img:hover {
+    width:400px;
+    height:300px;
+    }
+
+
+.Qualité{
+    border-radius: 10px;
+    background-color: #586F7C;
+    border: solid #3B4B54;
+    padding: 15px;
+    text-align: center;
+    margin: 25px
+}
+.Contact{
+    background-color: #FAF5FF;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    grid-template-columns: 5 ;
+}
+.Contact{
+    background-color: #586F7C;
+    padding: 15px;
+    text-align: center;
+    
+
+}
+header{
+
+        background-color: #586F7C;
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 20px;
+        grid-template-columns: 5 ;
+    
+}
+
+
+
+.Veille{
+    display: grid;
+    grid-template-columns: 3 1fr;
+    justify-content: space-between;
+    
+}
+    .Algo {
+        border-radius: 10px;
+        text-align: center;
+        grid-column: 1 ;
+        background-color: #586F7C;
+        margin-left: 100px;
+        border: solid #3B4B54;
+        width: 420px;
+        
+    }
+    .vl {
+        border-left: 4px solid #1E152A;
+        grid-column: 2 ;
+        justify-self: center;
+    }
+    .Moteur{
+
+        border-radius: 10px;
+        grid-column: 3;
+        text-align: center;
+        background-color: #586F7C;
+        margin-right: 100px;
+        border: solid #3B4B54;
+        vertical-align: middle;
+        width: 420px;
+
+    }
+
+.project {
+    text-align: center;
+}
+
+
+.DocBibli, .Docinfranow{
+
+    margin-top: 15px;
+}
+
+
+a:not(.Linktoprojecta,.Mail){
+    text-decoration: none;
+    color: black;
+}
+
+
+.Linktoproject{
+    text-align: center;
+}
+
+
+
+
+
+a:not( .Mail) {
+    text-decoration: none;
+    color: black;
+}
+
+.Mail {
+    color: #fff;
+}
+
+
+
+
+
+.PersonalLearning {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.PersonalLearning div {
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #586F7C;
+}
+
+.OPCROOM {
+    background-color: #4E5D6A;
+}
+
+.YTB {
+    background-color: #64717E;
+}
+
+.INSTA {
+    background-color: #4B5863;
+}
