@@ -268,13 +268,24 @@ image{
     text-align: center;
 
 }
-.VP img,.GLPI img,.M2L3 img {
+.VP img {
     margin: 15px;
     width:497px;
     height:280px;
     border-radius: 10px;
     }
-
+.GLPI img{
+    margin: 15px;
+    width:497px;
+    height:280px;
+    border-radius: 10px;
+    }
+.M2L3 img{
+    margin: 15px;
+    width:497px;
+    height:280px;
+    border-radius: 10px;
+    }
 .M2L3{
         border-radius: 10px;
         background-color: #DAD1E2;
