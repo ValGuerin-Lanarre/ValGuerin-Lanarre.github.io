@@ -268,13 +268,38 @@ image{
     text-align: center;
 
 }
-.VP img {
+.VP img,.GLPI img,.M2L3 img {
     margin: 15px;
     width:497px;
     height:280px;
     border-radius: 10px;
     }
+
 .M2L3{
+        border-radius: 10px;
+        background-color: #DAD1E2;
+        margin-right: 100px;
+        border: solid #3B4B54;
+        grid-column-end:  3;
+        grid-row:  6;
+        padding: 15px;
+        text-align: center;
+    
+    }
+
+    .GLPI{
+        border-radius: 10px;
+        background-color: #DAD1E2;
+        margin-right: 100px;
+        border: solid #3B4B54;
+        grid-column-end:  2;
+        grid-row:  5;
+        padding: 15px;
+        text-align: center;
+    
+    }
+
+    .M2L{
         border-radius: 10px;
         background-color: #DAD1E2;
         margin-right: 100px;
@@ -401,6 +426,7 @@ a:not( .Mail) {
     text-decoration: none;
     color: black;
 }
+
 
 .Mail {
     color: #fff;
@@ -537,7 +563,7 @@ a:not( .Mail) {
     .bibli,
     .infranow,
     .VP,
-    .M2L {
+    .M2L,.M2L3,.GLPI {
         grid-column: 1; /* Chaque élément prend une colonne entière */
         margin-right: 0; /* Plus besoin de marge à droite */
     }
@@ -562,6 +588,17 @@ a:not( .Mail) {
         grid-column: 1;
 
     }
+    .M2L3{
+        grid-row:  4;
+        grid-column: 1;
+
+    }
+    .GLPI {
+        grid-row:  4;
+        grid-column: 1;
+
+    }
+
 
     
 
