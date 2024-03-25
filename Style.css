@@ -408,6 +408,7 @@ header{
     
 }
     .Algo {
+        padding: 6px;
         border-radius: 10px;
         text-align: center;
         grid-column: 1 ;
@@ -423,7 +424,7 @@ header{
         justify-self: center;
     }
     .Moteur{
-
+        padding: 6px;
         border-radius: 10px;
         grid-column: 3;
         text-align: center;
