@@ -268,7 +268,7 @@ image{
     text-align: center;
 
 }
-.VP img,.GLPI img,.M2L3 img,.Inventaire img,.AP4 img ,.ELS img{
+.VP img,.GLPI img,.M2L3 img,.Inventaire img,.AP4 img ,.ELS img,.Deploiement img{
     margin: 15px;
     width:497px;
     height:280px;
@@ -344,6 +344,17 @@ image{
         border: solid #3B4B54;
         grid-column-end:  2;
         grid-row:  9;
+        padding: 15px;
+        text-align: center;
+    
+    }
+    .Deploiement{
+        border-radius: 10px;
+        background-color: #DAD1E2;
+        margin-right: 100px;
+        border: solid #3B4B54;
+        grid-column-end:  3;
+        grid-row:  10;
         padding: 15px;
         text-align: center;
     
@@ -602,7 +613,7 @@ a:not( .Mail) {
     .bibli,
     .infranow,
     .VP,
-    .M2L,.M2L3,.GLPI,.Inventaire {
+    .M2L,.M2L3,.GLPI,.Inventaire,.Deploiement {
         grid-column: 1; /* Chaque élément prend une colonne entière */
         margin-right: 0; /* Plus besoin de marge à droite */
     }
@@ -640,6 +651,11 @@ a:not( .Mail) {
     .Inventaire{
         grid-row:  7;
         grid-column: 1;
+    }
+    .Deploiement{
+        grid-row:  8;
+        grid-column: 1;
+
     }
 
 
