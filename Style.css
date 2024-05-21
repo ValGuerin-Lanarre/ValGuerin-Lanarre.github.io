@@ -710,3 +710,201 @@ a:not( .Mail) {
     }
 }
 
+/* Styles pour les petits écrans */
+@media only screen and (max-width: 740px) {
+    header {
+        font-size: 1.5em;
+        width: 113vw; /* 100% de la largeur de la fenêtre visible */
+    }
+    
+
+    .Profil {
+        flex-direction: column;
+    }
+
+    .profilP {
+        display: none;
+    }
+
+    .BTS_SIO {
+        padding: 10px;
+    }
+
+    .débouché,
+    ul,
+    li.débouché {
+        padding-left: 20px;
+    }
+
+    .Quick-link {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+    }
+
+    .TSynthese,
+    .CV,
+    .Linkedin,
+    .GL {
+        grid-column: 1;
+    }
+
+    .TSynthese {
+        grid-row: 2;
+    }
+    .GL{
+        grid-row: 3;
+    }
+
+    .CV{
+        grid-row: 4;
+    }
+    
+    .Linkedin{
+        grid-row: 5;
+    }
+
+
+
+
+
+    .Terminal {
+        margin: 10px;
+        width: auto;
+        padding: 10px;
+    }
+
+    .Technical_Skills,
+    .Soft_Skills {
+        margin: 10px;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    .Soft_Skills {
+        margin-right: 10px;
+    }
+
+    .info_rapide {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        margin: 20px;
+    }
+
+    .inf1,
+    .inf2,
+    .inf3 {
+        margin-right: 10px;
+    }
+
+    .Experience {
+        display: flex;
+        flex-wrap: nowrap; /* Empêcher le retour à la ligne */
+        overflow-x: auto; /* Ajouter une barre de défilement horizontale si nécessaire */
+    }
+    
+    .Experience > * {
+        flex: 0 0 100%; /* Chaque élément prend toute la largeur de l'écran */
+        min-width: 100%; /* Garantir que chaque élément a au moins la largeur de l'écran */
+    }
+    
+    
+
+    .bibli,
+    .infranow,
+    .VP,
+    .M2L,.M2L3,.GLPI,.Inventaire,.Deploiement {
+        grid-column: 1; /* Chaque élément prend une colonne entière */
+        margin-right: 0; /* Plus besoin de marge à droite */
+    }
+
+
+    .bibli{
+        grid-row:  1;
+        grid-column: 1;
+    }
+    .infranow{
+        grid-row:  2;
+        grid-column: 1;
+
+    }
+    .VP{
+        grid-row:  3;
+        grid-column: 1;
+
+    }
+    .M2L{
+        grid-row:  4;
+        grid-column: 1;
+
+    }
+    .M2L3{
+        grid-row:  5;
+        grid-column: 1;
+
+    }
+    .GLPI {
+        grid-row:  6;
+        grid-column: 1;
+
+    }
+    .Inventaire{
+        grid-row:  7;
+        grid-column: 1;
+    }
+    .AP4{
+        grid-row:  8;
+        grid-column: 1;
+
+    }
+    .ELS{
+        grid-row:  9;
+        grid-column: 1;
+
+    }
+    .Deploiement{
+        grid-row:  10;
+        grid-column: 1;
+
+    }
+
+
+    .bibli img ,.infranow img,.VP img,.GLPI img,.M2L3 img,.Inventaire img,.AP4 img ,.ELS img,.Deploiement img{
+        margin: 15px;
+        width: calc(497px / 2); /* Diviser la largeur par 2 */
+        height: calc(280px / 2); /* Diviser la hauteur par 2 */
+        border-radius: 10px;
+        
+        }
+
+
+    .Qualité {
+        margin: 10px;
+    }
+
+    .Contact {
+        margin-top: 10px;
+    }
+
+    .Veille {
+        display: grid;
+        grid-template-columns: auto; /* ou spécifiez la largeur de la colonne si nécessaire */
+        grid-template-rows: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+    .Moteur {
+        grid-row: 2;
+        grid-column: 1; /* Les deux conteneurs seront sur la même colonne */
+        margin: 0; /* Annule les marges si nécessaire */
+    }
+    
+    .Algo {
+        grid-row: 1;
+        grid-column: 1; /* Les deux conteneurs seront sur la même colonne */
+        margin: 0; /* Annule les marges si nécessaire */
+    }
+    
+}
+
