@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const selectedValue = docSelect.value;
 
         switch (selectedValue) {
-            case "#":
-                docPreview.src = "#";
+            case "Eurlstf":
+                docPreview.src = "Documentation-projet/ELS/Eurl.pdf";
                 break;
 
 
