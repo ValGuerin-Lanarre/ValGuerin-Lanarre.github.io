@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     docSelect.addEventListener("change", function() {
         const selectedValue = docSelect.value;
-
+        
         switch (selectedValue) {
             case "PowerPoint":
                 docPreview.src = "Documentation-projet/M2L/Présentation des éléments à créer.pdf";
@@ -17,6 +17,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 break;
             case "TrgP":
                 docPreview.src = "Documentation-projet/M2L/Triangle_Projet.pdf";
+                break;
+            case "Gantt":
+                docPreview.src = "Documentation-projet/M2L/GanttAP2.pdf";
                 break;
 
             default:
