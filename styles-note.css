@@ -19,7 +19,11 @@ header {
     color: white;
     padding: 15px 20px;
     text-align: center;
-    position: relative;
+    position: fixed; /* Fixed pour le header */
+    top: 0;
+    left: 0;
+    width: 100%; /* Assure que le header prend toute la largeur */
+    z-index: 100; /* Toujours au-dessus du contenu */
 }
 
 header h1 {
@@ -49,7 +53,11 @@ footer {
     padding: 15px 20px;
     background-color: #095228;
     color: white;
-    position: relative;
+    position: fixed; /* Fixed pour le footer */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Assure que le footer prend toute la largeur */
+    z-index: 100; 
 }
 
 /* Conteneur principal */
@@ -59,6 +67,10 @@ main {
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-top: 80px; /* Compense la hauteur du header fixe */
+    margin-bottom: 60px; /* Compense la hauteur du footer fixe */
+    overflow: hidden; /* Évite les débordements visuels */
+    height: calc(100vh - 140px); /* Ajuste la hauteur disponible en fonction du header et du footer fixes */
 }
 
 /* Forme du cœur */
@@ -71,7 +83,7 @@ main {
     z-index: 0;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg); /* Centrage parfait */
 }
 
 .heart-shape::before,
@@ -123,17 +135,6 @@ main {
 .note-message {
     color: #b30000;
     margin: 0;
-}
-
-/* Sticky header et footer */
-header {
-    position: sticky;
-    top: 0;
-}
-
-footer {
-    position: sticky;
-    bottom: 0;
 }
 
 /* Responsive design : iPhone 12 Pro Max Portrait (390px) */
