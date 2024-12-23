@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation au Nouvel An</title>
+    <link rel="stylesheet" href="styles-invitation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Assets/cadeau.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="home-link">
+            <i class="fas fa-arrow-left"></i> Retour à l'accueil
+        </a>
+        <h1>Invitation au Nouvel An</h1>
+    </header>
+
+    <main>
+        <div class="invitation-card">
+            <h2>Rejoins-nous pour célébrer le Nouvel An !</h2>
+            <p>
+                T'es invitée le 31 décembre pour le Nouvel Aaann !!!!! Avec tout le discord, le Gui, les pulls et bien plus encore, on t'attendra!!!!!!  <br>
+                <strong>Lieu :</strong> 23 A***** L** L****** Livry Gargan le 93<br>
+                <strong>Tenue :</strong> Un pull gris, un jean noir, des converses. <br>
+            </p>
+            <a class="button" onclick="launchConfetti()">Je viens</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cadeau de Noël. Tous droits réservés. Vee.G Lan</p>
+    </footer>
+
+    <script>
+        function launchConfetti() {
+            confetti({
+                particleCount: 100,
+                spread: 70,
+                origin: { y: 0.6 },
+            });
+        }
+    </script>
+</body>
+</html>

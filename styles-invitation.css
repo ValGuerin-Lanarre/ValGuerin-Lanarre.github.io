@@ -1,0 +1,125 @@
+/* Styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffe6e6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #095228;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.home-link {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.home-link i {
+    margin-right: 8px;
+    font-size: 1.5em;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.invitation-card {
+    background-color: white;
+    border: 2px solid #095228;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.invitation-card h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+    color: #b30000;
+    margin-bottom: 15px;
+}
+
+.invitation-card p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.invitation-card .button {
+    display: inline-block;
+    background-color: #b30000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.invitation-card .button:hover {
+    background-color: #800000;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 20px;
+    background-color: #095228;
+    color: white;
+}
+
+/* Responsive design */
+@media screen and (max-width: 680px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-link {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .invitation-card {
+        padding: 20px;
+        font-size: 1em;
+    }
+
+    .invitation-card h2 {
+        font-size: 1.8em;
+    }
+}
